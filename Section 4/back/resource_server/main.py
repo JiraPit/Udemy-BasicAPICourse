@@ -39,4 +39,3 @@ def update_fruit(fruit: FruitModel):
         if f.name.lower() == fruit.name.lower():
             f.price = fruit.price
     return "success"
-
